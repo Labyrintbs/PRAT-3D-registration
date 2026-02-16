@@ -1,0 +1,131 @@
+{
+  "K": 10658,
+  "seed": 1,
+  "voxel_size": 0.005,
+  "patch_radius": 0.3,
+  "ref_support_n": 213157,
+  "mov_support_n": 400580,
+  "ref_kp_n": 10658,
+  "mov_kp_n": 10658,
+  "fpfh_feat_s": 2.192617727443576,
+  "fpfh_ransac_s": 1.7817511381581426,
+  "fpfh_icp_s": 1.0040787039324641,
+  "fpfh_total_s": 4.9784475695341825,
+  "fpfh_ransac_fitness": 0.0,
+  "fpfh_ransac_rmse": 0.0,
+  "fpfh_icp_fitness": 0.0,
+  "fpfh_icp_rmse": 0.0,
+  "fpfh_cov_5mm": 0.0,
+  "fpfh_cov_10mm": 0.0,
+  "fpfh_trimrmse_5mm": NaN,
+  "fpfh_trimrmse_10mm": NaN,
+  "fpfh_chamfer": 6.9438705283903115,
+  "spinnet_ref_feat_s": 55.88873165193945,
+  "spinnet_mov_feat_s": 76.75273278634995,
+  "spinnet_feat_s": 132.6414644382894,
+  "spinnet_ransac_s": 5.421194572001696,
+  "spinnet_icp_s": 0.9416062058880925,
+  "spinnet_total_s": 139.0042652161792,
+  "spinnet_ransac_fitness": 0.0,
+  "spinnet_ransac_rmse": 0.0,
+  "spinnet_icp_fitness": 0.0,
+  "spinnet_icp_rmse": 0.0,
+  "spinnet_cov_5mm": 0.0,
+  "spinnet_cov_10mm": 0.0,
+  "spinnet_trimrmse_5mm": NaN,
+  "spinnet_trimrmse_10mm": NaN,
+  "spinnet_chamfer": 6.9438705283903115,
+  "fpfh_T_icp": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "spinnet_T_icp": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "combine_w_fpfh": 1.0,
+  "combine_w_spinnet": 1.0,
+  "combine_feat_s": 134.83408216573298,
+  "combine_ransac_s": 8.93550583254546,
+  "combine_icp_s": 0.9382858062162995,
+  "combine_total_s": 144.70787380449474,
+  "combine_ransac_fitness": 0.0,
+  "combine_ransac_rmse": 0.0,
+  "combine_icp_fitness": 0.0,
+  "combine_icp_rmse": 0.0,
+  "combine_cov_5mm": 0.0,
+  "combine_cov_10mm": 0.0,
+  "combine_trimrmse_5mm": NaN,
+  "combine_trimrmse_10mm": NaN,
+  "combine_chamfer": 6.9438705283903115,
+  "combine_T_icp": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

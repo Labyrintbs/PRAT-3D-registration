@@ -1,0 +1,131 @@
+{
+  "K": 3072,
+  "seed": 1,
+  "voxel_size": 0.005,
+  "patch_radius": 0.3,
+  "ref_support_n": 61443,
+  "mov_support_n": 65640,
+  "ref_kp_n": 3072,
+  "mov_kp_n": 3072,
+  "fpfh_feat_s": 0.3810287741944194,
+  "fpfh_ransac_s": 0.2199697894975543,
+  "fpfh_icp_s": 2.1984079526737332,
+  "fpfh_total_s": 2.799406516365707,
+  "fpfh_ransac_fitness": 0.3033854166666667,
+  "fpfh_ransac_rmse": 0.005358166706228956,
+  "fpfh_icp_fitness": 0.9863048297237916,
+  "fpfh_icp_rmse": 0.0014658574829374594,
+  "fpfh_cov_5mm": 0.9863048297237916,
+  "fpfh_cov_10mm": 0.9975012751098556,
+  "fpfh_trimrmse_5mm": 0.0014658574829374928,
+  "fpfh_trimrmse_10mm": 0.0016244763538177903,
+  "fpfh_chamfer": 0.002987398471942863,
+  "spinnet_ref_feat_s": 22.194439408369362,
+  "spinnet_mov_feat_s": 22.906993692740798,
+  "spinnet_feat_s": 45.10143310111016,
+  "spinnet_ransac_s": 0.5502823637798429,
+  "spinnet_icp_s": 1.7841603578999639,
+  "spinnet_total_s": 47.43587582278997,
+  "spinnet_ransac_fitness": 0.0,
+  "spinnet_ransac_rmse": 0.0,
+  "spinnet_icp_fitness": 0.0,
+  "spinnet_icp_rmse": 0.0,
+  "spinnet_cov_5mm": 0.0,
+  "spinnet_cov_10mm": 0.0,
+  "spinnet_trimrmse_5mm": NaN,
+  "spinnet_trimrmse_10mm": NaN,
+  "spinnet_chamfer": 3.435376785446324,
+  "fpfh_T_icp": [
+    [
+      -0.979247594526289,
+      0.021023432573453963,
+      0.20157421436609846,
+      -0.039504381516303734
+    ],
+    [
+      -0.20164109912580477,
+      -0.0010896829575228041,
+      -0.9794588708743145,
+      -2.3205725398575288
+    ],
+    [
+      -0.020371935544226824,
+      -0.9997783893813088,
+      0.005306257466459174,
+      -0.8192264079695337
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "spinnet_T_icp": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "combine_w_fpfh": 1.0,
+  "combine_w_spinnet": 1.0,
+  "combine_feat_s": 45.48246187530458,
+  "combine_ransac_s": 0.8404402611777186,
+  "combine_icp_s": 1.721696162596345,
+  "combine_total_s": 48.04459829907864,
+  "combine_ransac_fitness": 0.0,
+  "combine_ransac_rmse": 0.0,
+  "combine_icp_fitness": 0.0,
+  "combine_icp_rmse": 0.0,
+  "combine_cov_5mm": 0.0,
+  "combine_cov_10mm": 0.0,
+  "combine_trimrmse_5mm": NaN,
+  "combine_trimrmse_10mm": NaN,
+  "combine_chamfer": 3.435376785446324,
+  "combine_T_icp": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}
